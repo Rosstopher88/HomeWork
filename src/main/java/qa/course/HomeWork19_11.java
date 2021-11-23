@@ -2,7 +2,7 @@ package qa.course;
 
 import java.util.Scanner;
 
-public class HomeWork14_11 {
+public class HomeWork19_11 {
 
     public static void main(String[] args) {
         Scanner consoleInput = new Scanner(System.in);
