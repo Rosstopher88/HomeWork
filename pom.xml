@@ -7,10 +7,17 @@
     <groupId>org.example</groupId>
     <artifactId>JAVA_INTRO</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.moara.yido</groupId>
+            <artifactId>tokenizer</artifactId>
+            <version>0.1.2</version>
+        </dependency>
+    </dependencies>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
 </project>

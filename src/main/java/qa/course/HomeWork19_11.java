@@ -6,9 +6,12 @@ public class HomeWork19_11 {
 
     public static void main(String[] args) {
         Scanner consoleInput = new Scanner(System.in);
-
+        System.out.println("Enter First Name");
         String MyName = consoleInput.nextLine();
+
+        System.out.println("Enter Surname");
         System.out.println("My First Name is  " + MyName);
+
 
         String MySurname = consoleInput.nextLine();
         System.out.println("My Surname is " + MySurname);
@@ -19,22 +22,21 @@ public class HomeWork19_11 {
             System.out.println("NotSame");
 
         }
-
+        System.out.println("Word Counter");
         String str = consoleInput.nextLine();
 
-        int count = 1;
 
-        for (int i = 0; i < str.length() - 1; i++) {
-            if ((str.charAt(i) == ' ') && (str.charAt(i + 1) != ' ')) {
-                count++;
-            }
+        if (!str.isEmpty()) {
+            System.out.println("Number of words in a string : " + str.replaceAll("[ ]+", " ").trim().split(" ").length);
+        } else {
+            System.out.println("String is empty");
         }
-        System.out.println("Number of words in a string : " + count);
 
 
-        String Merge = MyName+" "+ MySurname;
+        String Merge = MyName + " " + MySurname;
         System.out.println(Merge);
     }
 }
+
 
 
